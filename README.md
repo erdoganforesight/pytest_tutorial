@@ -26,6 +26,8 @@ The data to be analyzed should be stored in two pandas Series of the same size, 
 The resulting estimates are printed to the screen (assuming that the ``verbose`` flag is not set to false) and also stored to internal variables ``rta.meanrt_`` and ``rta.meanacc_``.
 
 
+
+
 ## Test 1: A simple smoke test
 
 For our first test, let's simply instantiate the ``RTAnalysis`` class and ensure that the resulting object is not empty.  We call this a "smoke test" since it mostly just makes sure that things run and don't break --- it doesn't actually test the functionality.  This is done in [test_1_smoketest.py](tests/test_1_smoketest.py):

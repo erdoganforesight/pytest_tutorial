@@ -8,6 +8,9 @@ The foregoing will assume that you have a fully configured scientific Python ins
 
 Most of the content here is basic Python, but there are several concepts that you should have at least a basic familarity with:
 
+
+
+
 - [Decorators](https://www.geeksforgeeks.org/decorators-in-python/) are a syntactic element in Python that modify the operation of a function.  
 - [Exceptions](https://realpython.com/python-exceptions/) are signals that are emitted when an error occurs during the execution of a program. Importantly, exceptions are Python objects that have a specific type that is specified by the code that raises the exception.  For example, if one tries to open a non-existent file using ``open()``, it will raise a ``FileNotFoundError`` exception, whereas if one tries to divide by zero the Python interpreter will raise a ``ZeroDivisionError`` exception.
 - [Context managers](https://book.pythontips.com/en/latest/context_managers.html) are a syntatic element that are usually used to control resources like file or database handles, but can also be used to monitor and control the operation of a set of functions, which will be useful when we are looking for specific exceptions.
